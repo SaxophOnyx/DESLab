@@ -1,7 +1,7 @@
+#include <stdio.h>
+
 #include "des.h"
 #include "input_transform.h"
-#include <stdio.h>
-#include <string.h>
 
 void printArray(uint8_t* arr, int len)
 {
@@ -28,7 +28,7 @@ void printBitArray(uint8_t* arr, int len)
 
 int main()
 {
-    uint8_t rawInput[8] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
+    uint8_t rawInput[8] = {'z', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
     uint8_t rawKey[7] = {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
 
     uint8_t input[64] = { 0 };
